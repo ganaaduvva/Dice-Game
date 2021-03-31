@@ -1,0 +1,85 @@
+body{
+    padding-top: 0%;
+    text-align: center;
+    background-color: #1f441e;
+}
+h1{
+    
+    padding-top: 2%;
+    font-size: 8rem;
+    font-family: 'Redressed', cursive; 
+    color: #adce74 ;
+}
+
+.player1, .player2{
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 2rem;
+    color: #d6efc7;
+   
+    
+}
+.player1{
+    float: left;
+    padding-left: 20%;
+}
+.player2{
+    padding-right: 20% ; 
+    float: right;
+}
+
+img{
+    padding: 4%;
+    width: 50%;
+}
+@media only screen and (max-width:1000px){
+    h1{
+        font-size: 6rem;
+    }
+    div.player1{
+        padding-left: 11%;
+        padding-right: 0%;
+    }
+    div.player2{
+        padding-right: 11%;
+        padding-left: 0%;
+    }
+}
+@media only screen and ( max-width: 740px ){
+    h1{
+        font-size: 5rem;
+    }
+    div.player1{
+        padding-left: 8%;
+        padding-right: 0%;
+        width: 40%;
+    } div.player2{
+        padding-right: 8%;
+        padding-left: 0%;
+        width: 40%;
+    }
+    img{
+        padding: 1%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+     h1{
+        padding-top: 10%;
+        font-size: 3.4rem;
+    }
+    div.player1{
+        padding: 20% 0% 0% 5%;
+        width: 40%;
+    } div.player2{
+        padding: 20% 5% 0% 0%;
+        width: 40%;
+    }
+    .player1, .player2{
+        font-size: 1.4rem;
+    }
+    img{
+        padding: 5%;
+        width: 60%;
+    }
+}
